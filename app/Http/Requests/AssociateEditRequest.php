@@ -24,8 +24,8 @@ class AssociateEditRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name'     => 'required|string|min:5',
-            'last_name'      => 'required|string|min:5',
+            'first_name'     => 'required|string|min:3',
+            'last_name'      => 'required|string|min:3',
             'email'          => 'required|email:rfc,dns',
             'identification' => 'required|numeric',
             'phone'          => 'required|numeric',

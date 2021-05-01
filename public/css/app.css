@@ -25134,3 +25134,15 @@ readers do not read off random characters that represent icons */
     position: fixed !important;
   }
 }
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+

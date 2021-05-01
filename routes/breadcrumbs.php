@@ -106,6 +106,7 @@ Breadcrumbs::for('projects.index', function ($trail) {
     $trail->parent('home.index');
     $trail->push('Proyectos', route('projects.index'));
 });
+
 // Inicio > Proyectos > Nuevo Proyecto
 Breadcrumbs::for('projects.create', function ($trail) {
     $trail->parent('home.index');

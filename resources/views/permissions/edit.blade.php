@@ -1,13 +1,10 @@
 @extends('layouts.app')
 
+@section('title', 'Editar Permiso')
+
 @section('breadcrumbs', Breadcrumbs::render('permissions.edit'))
 
 @section('content')
-	<div class="row">
-		<div class="col">
-			<h1>Editar Permiso</h1>
-		</div>
-	</div>
 	<div class="row">
 		<div class="col">
 			@if (session('message'))
@@ -24,7 +21,7 @@
         <div class="col-4">
             <div class="card shadow-sm">
                 <div class="card-header">
-                    <i class="fas fa-edit"></i> Editar
+                    <i class="fas fa-edit"></i> Editar Permiso
                 </div>
                 <div class="card-body">
                 	<form method="POST" action="{{ route('permissions.update', $permission->id) }}">
@@ -57,7 +54,7 @@
 	        						</div>
 	        						<div class="col">
 	        							<button class="btn btn-info btn-block" type="submit">
-											<i class="far fa-check-circle"></i> Editar
+											<i class="fas fa-check"></i> Actualizar
 										</button>
 	        						</div>
 	        					</div>

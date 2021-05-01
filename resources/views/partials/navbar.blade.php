@@ -2,14 +2,14 @@
     <button class="c-header-toggler c-class-toggler d-lg-none mfe-auto" type="button" data-target="#sidebar" data-class="c-sidebar-show">
         <i class="fas fa-bars"></i>
     </button>
-    <a href="#" class="c-header-brand d-lg-none">
+    <!-- <a href="#" class="c-header-brand d-lg-none">
         <i class="fas fa-bars"></i>
-    </a>
+    </a> -->
     <button class="c-header-toggler c-class-toggler mfs-3 d-md-down-none" type="button" data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
         <i class="fas fa-bars"></i>
     </button>
     <ul class="c-header-nav ml-auto mr-2">
-        {{ Auth::user()->first_name }}
+        {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}
         <li class="c-header-nav-item dropdown">
             <a class="c-header-nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                 <div class="c-avatar">

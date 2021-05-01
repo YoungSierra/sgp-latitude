@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
+@section('title', 'Crear Permiso')
+
 @section('breadcrumbs', Breadcrumbs::render('permissions.create'))
 
 @section('content')
-
 	<div class="row">
 		<div class="col">
 			@if (session('message'))
