@@ -46,14 +46,14 @@ El único usuariocon permisos asignados es el `Superadministrador` una vez logue
 
 ```
 Superadministador
-- User: superadmin@latittude.com
+- User: superadmin@lattitude.com
 - Pass: secret
 
 Administrador
-- User: admin@latittude.com
+- User: admin@lattitude.com
 - Pass: secret
 
 Asociado
-- User: asociado@latittude.com
+- User: asociado@lattitude.com
 - Pass: secret
 ```
