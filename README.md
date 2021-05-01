@@ -7,11 +7,11 @@
 ## Instalación y actualizaciones
 
 ```bash
-[clonar SSH]$ git clone git@github.com:cristianmgb/sgp-latitude.git
+[clonar SSH]$ git clone git@github.com:YoungSierra/sgp-latitude.git
 ```
 Ó
 ```bash
-[clonar HTTPS]$ git clone https://github.com/cristianmgb/sgp-latitude.git
+[clonar HTTPS]$ git clone https://github.com/YoungSierra/sgp-latitude.git
 ```
 ```bash
 $ composer install
